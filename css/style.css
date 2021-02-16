@@ -45,6 +45,22 @@ p{
   background-color: white;
 }
 /* /COLORI */
+/* ----------btn---------- */
+#btn_sign{
+  color: #006aff;
+  border: 2px solid #006aff;
+  padding: 5px 10px;
+}
+#btn_sign:hover{
+  color: white;
+  background-color: #006aff;
+}
+.btn_mobile{
+  background-color: transparent;
+}
+.btn_mobile i{
+  font-size: 18px;
+}
 /* -------------MIX---------------- */
 .list-inline{
   margin-bottom: 0px;
@@ -69,8 +85,46 @@ p{
   margin: auto;
   padding: 50px 0px;
 }
+.container_m{
+  width: 70%;
+  margin: auto;
+}
+.container_nav{
+  max-width: 1000px;
+  margin: auto;
+}
+.wrapper_flexbox{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
 /* -------------/MIX---------------- */
-
+/* ------nav------ */
+.flex_nav{
+  padding: 20px 0px;
+  justify-content: space-around;
+  align-items: center;
+}
+.item_logo{
+  flex-basis: 20%;
+}
+.item_nav{
+  flex-grow: 35%;
+}
+.item_logo img{
+  height: 30px;
+}
+.main_nav li, .login_nav li{
+  margin-right: 8px;
+}
+.main_nav li a, .login_nav li a{
+  font-size: 14px;
+  font-weight:500;
+}
+.main_nav li a:hover, .login_nav li a:hover{
+  text-decoration: none;
+}
+/* ------/nav------ */
 /* ----------------CORPO DELLA PAGINA------------- */
 /* section 1 "sponsor" */
 .sponsor h5{
@@ -81,10 +135,7 @@ p{
   font-weight: 500;
 }
 .container_flexbox{
-  width: 100%;
-  display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
   align-items: baseline;
 }
 .box_img_sponsor{
@@ -97,14 +148,7 @@ p{
 }
 /* /section 1 "sponsor" */
 /* section 2 "descrizione1" */
-.container_m{
-  width: 70%;
-  margin: auto;
-}
 .container_flexbox2{
-  width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
   justify-content: space-between;
 }
 .item_menu{
@@ -114,8 +158,6 @@ p{
   flex-basis: 700px;
 }
 .wrapper_box{
-  width: 100%;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -149,16 +191,12 @@ p{
 
 /* Media QUery */
 @media screen and (max-width: 768px) {
-  .container_flexbox{
+  .container_flexbox, .container_flexbox2{
     display: flex;
     flex-wrap: wrap;
   }
   .box_img_sponsor{
     flex-basis: calc(100% / 2);
-  }
-  .container_flexbox2{
-    display: flex;
-    flex-wrap: wrap;
   }
   .item_menu{
     flex-basis: 100%;
