@@ -83,11 +83,17 @@ p{
 .container_flexbox{
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: nowrap;
+  align-items: baseline;
 }
 .box_img_sponsor{
   flex-basis: calc(100% / 6);
+  padding: 10px;
+}
+.box_img_sponsor img{
+  width: 100%;
+  height: auto;
 }
 /* /section 1 "sponsor" */
 /* section 2 "descrizione1" */
