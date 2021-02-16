@@ -1,0 +1,259 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+main p{
+  color: #5b6987;
+}
+/* typo */
+h2{
+  font-size: 36px;
+  font-weight: 700;
+}
+p{
+  font-size: 19px;
+}
+/* /typo */
+/* COLORI */
+.first_color_text{
+  color: #006aff;
+}
+.first_color_back{
+  background-color: #006aff;
+}
+.second_color_text{
+  color: hsl(221, 93%, 16%);
+}
+.second_color_back{
+  background-color: hsl(221, 93%, 16%);
+}
+.third_color_text{
+  color: #5b6987;
+}
+.third_color_back{
+  background-color: #5b6987;
+}
+.fourth_color_text{
+  color: #f3f5f9;
+}
+.fourth_color_back{
+  background-color: #f3f5f9;
+}
+.white_color_text{
+  color: white;
+}
+.white_color_back{
+  background-color: white;
+}
+/* /COLORI */
+/* -------------MIX---------------- */
+/* customizzazione table */
+.senza_bt {
+   border-top: none!important;
+ }
+.border_table{
+  border-top: 1px solid white;
+}
+ /* /customizzazione table */
+.list-inline{
+  margin-bottom: 0px;
+}
+.d_inline{
+  display: inline-block;
+}
+.d_block{
+  display: block;
+}
+.padding_main_sec{
+  padding: 50px 0px;
+}
+.padding_main_sec_small{
+  padding: 30px 0px;
+}
+.padding_main_sec_footer{
+  padding: 15px 0px;
+}
+.container_small{
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 0px;
+}
+.row.equal-height > div{
+  height: 200px;
+}
+/* ----------btn---------- */
+#btn_sign{
+  color: #006aff;
+  border: 2px solid #006aff;
+  padding: 5px 10px;
+}
+#btn_sign:hover{
+  color: white;
+  background-color: #006aff;
+}
+.btn_mobile{
+  background-color: transparent;
+}
+.btn_mobile i{
+  font-size: 18px;
+}
+.btn-account{
+  color: white;
+  border: 1px solid #006aff;
+  font-weight: 500;
+}
+.btn-account:hover{
+  color: #006aff;
+  background-color: white;
+}
+.btn-google{
+  box-shadow: 1px 1px 2px 2px lightgrey;
+  font-weight: 500;
+}
+.btn-google span img{
+  height: 20px;
+  position: absolute;
+  left: 50px;
+}
+.btn_create{
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.btn_create:hover{
+  color: white;
+  background-color: transparent;
+}
+/* ----------/btn---------- */
+/* -------------/MIX---------------- */
+
+/* ----------------CORPO DELLA PAGINA------------- */
+/* section 1 "sponsor" */
+.sponsor h5{
+  font-size: 18px;
+}
+.sponsor p a{
+  font-size: 16px;
+  font-weight: 500;
+}
+.container_flexbox{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.box_img_sponsor{
+  flex-basis: calc(100% / 6);
+}
+/* /section 1 "sponsor" */
+/* section 2 "descrizione1" */
+.lat_menu{
+  list-style: none;
+  line-height: 40px;
+  border-left: 1px solid #5b6987;
+  margin-bottom: 30px;
+}
+.lat_menu li a{
+  font-size: 18px;
+  font-weight: 500;
+}
+.box_descrizione1 p{
+  font-size: 14px;
+  font-weight: 500;
+}
+.box_descrizione1 a{
+  font-size: 16px;
+  font-weight: 500;
+}
+/* /section 2 "descrizione1" */
+/* section carousel1 */
+/* .carousel{
+  width: 80%;
+  margin: auto;
+}
+.carousel-inner{
+  width: 75%;
+  margin: auto;
+}
+.carousel-control{
+  text-shadow: none;
+  background-color: transparent;
+  opacity: 1;
+  filter: none;
+}
+.carousel-control.left, .carousel-control.right{
+  background-image: none;
+}
+.carousel-indicators li{
+  border: 1px solid #006aff;
+}
+.carousel-indicators .active{
+  background-color: #006aff;
+  border: none;
+}
+.item h6{
+  font-size: 14px;
+} */
+/* /section carousel1 */
+/* section maps */
+/* .maps{
+  background-image: url("../img/bg-map.svg");
+  background-size: cover;
+  background-position: center;
+}
+.box_table1{
+  padding: 10px;
+}
+.table .link a{
+  color: #00d7d2;
+  font-size: 12px;
+} */
+/* /section maps */
+/* section carousel2 */
+/* #myCarousel2 .item .rockerbox{
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#myCarousel2 .set_img_rockrbox{
+  width: 80%;
+  margin: auto;
+}
+#myCarousel2 .set_img_rockrbox img{
+  width: 60%;
+  height: auto;
+  padding-bottom: 30px;
+}
+#myCarousel2 .rockerbox a{
+  margin: 30px 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+#myCarousel2 .rockerbox small, #myCarousel2 .rockerbox strong{
+  font-size: 14px
+} */
+/* /section carousel2 */
+/* section create-account */
+/* .create_acc{
+  background-image: url("https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format");
+  background-size: cover;
+  background-position: center;
+} */
+/* /section create-account */
+/* ----------------/CORPO DELLA PAGINA------------- */
+
+/* Media QUery */
+@media screen and (max-width: 768px) {
+  .container_flexbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .box_img_sponsor{
+    flex-basis: calc(100% / 2);
+  }
+
+}
+/* /Media QUery */
