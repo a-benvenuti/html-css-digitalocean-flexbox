@@ -85,10 +85,6 @@ p{
   margin: auto;
   padding: 50px 0px;
 }
-.container_m{
-  width: 70%;
-  margin: auto;
-}
 .container_nav{
   max-width: 1000px;
   margin: auto;
@@ -100,16 +96,21 @@ p{
 }
 /* -------------/MIX---------------- */
 /* ------nav------ */
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .flex_nav{
   padding: 20px 0px;
-  justify-content: space-around;
   align-items: center;
 }
 .item_logo{
-  flex-basis: 20%;
+  flex-grow: 1;
 }
 .item_nav{
-  flex-grow: 35%;
+  flex-grow: 2;
 }
 .item_logo img{
   height: 30px;
@@ -128,6 +129,7 @@ p{
 /* ----------------CORPO DELLA PAGINA------------- */
 /* section 1 "sponsor" */
 .sponsor h5{
+  margin-top: 77px;
   font-size: 18px;
 }
 .sponsor p a{
@@ -188,27 +190,15 @@ p{
   font-weight: 500;
 }
 /* ----------------/CORPO DELLA PAGINA------------- */
-
 /* Media QUery */
 @media screen and (max-width: 768px) {
   .container_flexbox, .container_flexbox2{
-    display: flex;
     flex-wrap: wrap;
   }
   .box_img_sponsor{
     flex-basis: calc(100% / 2);
   }
-  .item_menu{
-    flex-basis: 100%;
-  }
-  .item_descrizione{
-    flex-basis: 100%;
-  }
-  .wrapper_box{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .box_descrizione1{
+  .item_menu, .item_descrizione, .box_descrizione1{
     flex-basis: 100%;
   }
 }
